@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia Sesion</title>
+        <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="login-box">
+        <h2>Bienvenido al Login</h2>
+        <form action="/public/login" method="POST">
+            <div class="user-box">
+                <input type="email" name="email" id="email" required>
+                <label for="correo">Correo:</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="password" id="password" required>
+                <label for="password">Contrasena:</label>
+            </div>
+            <button class="enviar">Iniciar Sesion</button>
+        </form>
+    </div>
+</body>
+</html>
